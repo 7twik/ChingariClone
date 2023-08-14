@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federant&family=Poppins&family=Oregano&display=swap');
+
+
+.submitAdd{
+    width:90px;
+    height: 50px;
+    background-color: rgb(241, 14, 109);
+    border:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.944);
+    border-radius: 10px;
+}
+.submitAdd:hover{
+    cursor: pointer;
+    border:1px black solid;
+    box-shadow: none;
+}
+
+
+.addTop{
+    padding-top:10vh;
+    width:calc(100vw - 10vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input,textarea,button{
+    margin-top: 1.5vh !important;
+    margin-bottom: 1.5vh !important;
+}
+.file-field{
+    width:40vw;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid rgb(241, 82, 14);
+    background-color: rgba(243, 146, 9, 0.841);  
+    backdrop-filter: blur(30px);
+    /* opacity:0.5; */
+    box-shadow: 6px 8px 43px -10px rgba(241, 113, 13, 0.8);
+    border-radius: 50px;
+}
+
+body{
+    background: url("https://cutewallpaper.org/21/gif-background-1920x1080/Space-Stars-Black-Background-Gif-1920x1080-.gif") !important;
+    background-size: 100%;
+    width:100vw;
+    height:auto;
+    margin-bottom:20vh;
+    overflow-x: hidden;
+}
+.home{
+    background: url("https://cutewallpaper.org/21/gif-background-1920x1080/Space-Stars-Black-Background-Gif-1920x1080-.gif") !important;
+    background-size: 100%;
+    width:100vw;
+    height:auto;
+    margin-bottom:20vh;
+    overflow-x: hidden;
+}
+.outAdd{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:850px){
+    
+    .file-field{
+        width:90vw;
+        height:auto;
+    }
+}
+/*                                 */
+
+
+
+/*//////////////////////////////////////*/

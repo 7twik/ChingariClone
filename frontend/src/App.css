@@ -1,0 +1,84 @@
+.cardes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vid{
+    padding-top: 2vh;
+    width:50vw !important;
+    height: auto !important;
+}
+.cardeach{
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lcts{
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.like,.share,.comment,.tip{
+    margin: 0 1vw;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.like:hover{
+    color: blue;
+    font-size: 1.7rem;
+}
+
+.share:hover,.comment:hover,.tip:hover{
+    color: #ff0000;
+    font-size: 1.7rem;
+}
+.fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.videoname{
+
+}
+.textf{
+    width:24vw;
+}
+.searchbar{
+    display:flex;
+}
+.cardtitle{
+    display: flex;
+    justify-content: space-between;
+
+}
+.inlinet{
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.nopost{
+    color: white;
+}
+.card{
+    background:linear-gradient(#9d6cd6,rgb(223, 136, 16)) !important;
+}
+.card-body{
+    width:50vw;
+}
+@media(max-width: 768px){
+    .vid{
+        width: 80vw !important;
+        height: auto !important;
+    }
+    .cardeach{
+        width: 90vw;
+    }
+    .card-body{
+        width:80vw;
+
+    }
+}
